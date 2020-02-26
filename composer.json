@@ -1,0 +1,22 @@
+{
+  "name": "astrviktor/urlchecker",
+  "description": "Test composer package",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Viktor Astrakhantsev",
+      "email": "astrviktor@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+   },
+  "require-dev": {
+    "phpunit/phpunit": ">=4.8.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Astrviktor\\Tools\\Url": "src/"
+    }
+  }
+}
