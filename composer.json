@@ -15,8 +15,6 @@
     "phpunit/phpunit": ">=4.8.9"
   },
   "autoload": {
-    "psr-4": {
-      "Astrviktor\\Tools\\Url\\": "src/"
-    }
+    "classmap": ["src"]
   }
 }
